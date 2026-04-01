@@ -18,6 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN playwright install chromium
 RUN playwright install-deps chromium
 
-COPY design_assistant_bot.py .
+COPY Design.py .
 
-CMD ["python", "design_assistant_bot.py"]
+CMD ["python", "Design.py"]
